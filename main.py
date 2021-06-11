@@ -4,14 +4,14 @@
 """Super fichier avec des trucs dedans"""
 
 from flask import Flask
-"""Super fichier avec des trucs dedans"""
+#comment
 app = Flask(__name__)
-"""Super fichier avec des trucs dedans"""
+#comment
 @app.route('/')
-"""Super fichier avec des trucs dedans"""
+#comment
 def index():
-    return "Hello world !" """Super fichier avec des trucs dedans"""
-"""Super fichier avec des trucs dedans"""
+    return "Hello world !" #comment
+#comment
 if __name__ == "__main__":
-    """Super fichier avec des trucs dedans"""
+    #comment
     app.run()
